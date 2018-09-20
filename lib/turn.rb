@@ -48,6 +48,8 @@ def turn(board)
     #move based on input 
     move(board, index)
     
+    #display board after valid move
+    
   else
     #ask for valid input
     
