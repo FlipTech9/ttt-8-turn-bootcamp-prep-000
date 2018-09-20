@@ -49,7 +49,9 @@ def turn(board)
     move(board, index)
     
   else
-    #ask for valid input 
+    #ask for valid input
+    
+    turn(board)
   end
   
 end
