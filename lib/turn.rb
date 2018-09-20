@@ -47,7 +47,7 @@ def turn(board)
   if valid_move?(board, index)
     #move based on input 
     move(board, index)
-    display_board(board)
+    
   else
     #ask for valid input 
   end
